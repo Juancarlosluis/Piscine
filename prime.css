@@ -1,0 +1,43 @@
+body { background-color: #00B0FF;
+	   color: #003300;
+	   font-family: Arial, Helvetica, sans-serif;
+	 }
+
+h1 { background-color:#00B0FF;
+	 color:#000000;
+   }
+
+h2 { background-color:#00B0FF;
+	 color:#003366;
+   }
+
+h3 { background-color:#00B0FF;
+	 color:#006600; 
+   }
+
+dd { font-style:italic;
+     font-size:.90em;
+     line-height:200%;
+   }
+
+img {border: 0}
+
+.logo { background-color:#00B0FF;
+	    color:#000000;
+	  }
+
+.contact { font-family: "Times New Roman", serif;
+           font-size: .90em;
+           font-weight:bold;
+         }
+
+.property { padding-right: 30px;
+			padding-top: 5px;
+		  }
+
+#nav { font-size: .70em;
+	 }
+
+#footer { font-size: .60em;
+	      font-style: italic;
+	    }
