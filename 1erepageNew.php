@@ -18,7 +18,7 @@
 
 			<form action="" method="post">
 			<fieldset>
-				<label for="acheteurvendeur">Compte acheteur ou vendeur?</label>
+				<label for="statut">Compte acheteur ou vendeur?</label>
 				<select name="statut" >
 					<option value="acheteur">acheteur</option>
 					<option value="vendeur">vendeur</option>
