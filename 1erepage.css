@@ -1,0 +1,32 @@
+
+h1{
+    position: relative;
+    top: 130px;
+    color: blanchedalmond;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 strong{
+    margin: auto;
+    display: block;
+}
+
+#content1{
+    position: relative;
+    top: 150px;
+    margin-left: 11%;
+    width: 33%;
+}
+
+#connexion label{
+    display: block;
+}
+
+
+#content2{
+    margin-right: 11%;
+    width: 33%;
+    float: right;
+}
