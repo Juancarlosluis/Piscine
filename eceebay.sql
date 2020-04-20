@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  sam. 18 avr. 2020 à 20:07
+-- Généré le :  lun. 20 avr. 2020 à 01:14
 -- Version du serveur :  8.0.18
 -- Version de PHP :  7.3.12
 
@@ -61,6 +61,24 @@ CREATE TABLE IF NOT EXISTS `admin` (
 
 INSERT INTO `admin` (`id_admin`, `email`, `mdp`) VALUES
 (1, 'Admin', 'EBAY53');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `objet`
+--
+
+DROP TABLE IF EXISTS `objet`;
+CREATE TABLE IF NOT EXISTS `objet` (
+  `numeorid` int(11) NOT NULL AUTO_INCREMENT,
+  `nom` varchar(255) NOT NULL,
+  `description` varchar(255) NOT NULL,
+  `categorie` varchar(255) NOT NULL,
+  `prix` int(11) NOT NULL,
+  `photo` longblob NOT NULL,
+  `vidéo` longblob NOT NULL,
+  PRIMARY KEY (`numeorid`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 -- --------------------------------------------------------
 
