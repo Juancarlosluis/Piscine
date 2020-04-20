@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vente d'un objet</title>
+	<meta charset="utf-8"/>
+	<link href="prime.css" rel="stylesheet" type="text/css" />
+	<link href="1erepage.css" rel="stylesheet" type="text/css" />
+</head>
+
+<div id="content">
+        
+	<body>
+	   
+		<h1>Ici vous pouvez mettre en vente un de vos objets !</h1>
+
+		<div id="content1">
+			<p>CRemplissez les champs suivants pour décrire votre objet !</p>
+			<form action="venteobjet.php" method="post" enctype="multipart/form-data">
+			<fieldset>
+				<label for="nom">Nom</label>
+				<input type="text" name="nom">
+				<label for="description">Description</label>
+				<input type="text" name="description">
+				<label for="categorie">Catégorie</label>
+				<input type="text" name="categorie">
+				<label for="photo">Photo</label>
+				<input type="file" name="photo">
+				<label for="video">Vidéo</label>
+				<input type="file" name="video">
+				<input type="submit" name="submit" value="Valider la mise en vente">
+			</fieldset>
+			</form>
+			
+		
+			<!-- En php sql envoyer les infos à la table acheteur-->
+
+		<div id="content2">
+			
+
+		</div>
+
+	</body>
+	<footer>
+
+	</footer>
+</div>
+</html>
